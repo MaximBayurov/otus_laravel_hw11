@@ -22,7 +22,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mbayurov\\OtusLaravelHw11\\OtusLaravelHw11ServiceProvider"
+                "Mbayurov\\OtusLaravelHw11\\OtusLaravelHw11ServiceProvider",
+                "Mbayurov\\OtusLaravelHw11\\Services\\RenderService\\RenderServiceProvider"
             ]
         }
     },
