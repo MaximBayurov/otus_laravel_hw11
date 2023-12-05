@@ -14,6 +14,6 @@ Route::group(
         Route::get('/form', [ImageController::class, "showForm"])->name('form');
         Route::post('/upload', [ImageController::class, "upload"])->name('upload');
         Route::get('/render/text', [RenderController::class, "renderText"])->name('render.text');
-        Route::post('/render/html', [RenderController::class, "renderHtml"])->name('render.html');
+        Route::get('/render/html', [RenderController::class, "renderHtml"])->name('render.html');
     }
 );
