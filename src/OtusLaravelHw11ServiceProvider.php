@@ -15,8 +15,7 @@ class OtusLaravelHw11ServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'hw11');
 
         View::composer(['hw11::pages.upload-form', 'hw11::pages.rendered-html', 'hw11::pages.rendered-text'], function ($view) {
-            $variable = config('hw11.layout');
-            $view->with('hw11_layout', $variable );
+            $view->with(['hw11_layout' => config('hw11.layout')]);
         });
     }
 }
