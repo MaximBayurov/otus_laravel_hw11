@@ -16,4 +16,4 @@ Route::group(
         Route::get('/render/text', [RenderController::class, "renderText"])->name('render.text');
         Route::post('/render/html', [RenderController::class, "renderHtml"])->name('render.html');
     }
-)->middleware([]);
+);
