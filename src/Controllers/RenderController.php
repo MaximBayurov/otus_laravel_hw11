@@ -12,13 +12,13 @@ class RenderController
     {
         $fullPath = \Storage::path($request->get('path'));
 
-        return View::make('hw11::rendered-text', ['rendered' => $renderService->renderText($fullPath)]);
+        return View::make('hw11::pages.rendered-text', ['rendered' => $renderService->renderText($fullPath)]);
     }
 
     public function renderHtml(Request $request, RenderService $renderService)
     {
         $fullPath = \Storage::path($request->get('path'));
 
-        return View::make('hw11::rendered-html', ['rendered' => $renderService->renderHtml($fullPath)]);
+        return View::make('hw11::pages.rendered-html', ['rendered' => $renderService->renderHtml($fullPath)]);
     }
 }
