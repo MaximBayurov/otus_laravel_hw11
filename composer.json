@@ -1,0 +1,28 @@
+{
+    "name": "mbayurov/otus_laravel_hw11",
+    "description": "Test package for education",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mbayurov\\OtusLaravelHw11\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxim Bayurov",
+            "email": "vakakak20@gmail.com"
+        }
+    ],
+    "license": "proprietary",
+    "require": {
+        "illuminate/support": "^10.10",
+        "illuminate/http": "^10.10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mbayurov\\OtusLaravelHw11\\OtusLaravelHw11ServiceProvider"
+            ]
+        }
+    }
+}
