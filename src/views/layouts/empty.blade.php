@@ -8,6 +8,6 @@
     <title>Homework 11</title>
 </head>
 <body>
-@yield('body')
+@yield('content')
 </body>
 </html>
