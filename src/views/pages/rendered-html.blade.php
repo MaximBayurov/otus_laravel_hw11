@@ -2,7 +2,7 @@
 @section('title', 'Rendered to HTML')
 
 @section('content')
-    <pre>
+    <div>
         {!! $rendered !!}
-    </pre>
+    </div>
 @endsection
