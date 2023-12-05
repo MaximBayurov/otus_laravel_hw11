@@ -3,8 +3,9 @@
 namespace Mbayurov\OtusLaravelHw11\Services\RenderService;
 
 use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Support\ServiceProvider;
 
-class RenderServiceProvider
+class RenderServiceProvider extends ServiceProvider
 {
     public function register()
     {
