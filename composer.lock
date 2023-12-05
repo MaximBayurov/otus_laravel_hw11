@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "18fe4b06507d50f1390180a3fba3d108",
+    "content-hash": "f636a577eba2b29dbb8da4dd6e49b13b",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -769,6 +769,27 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2023-12-04T22:26:42+00:00"
+        },
+        {
+            "name": "ilya-nurullin/img2ascii",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ilya-nurullin/img2ascii",
+                "reference": "70a51f142817a6f4171c1dd9ef13bc1f75aa66ad"
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">= 5.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Img2Ascii\\": "src/"
+                }
+            },
+            "time": "2021-09-14T14:55:11+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -2673,9 +2694,9 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],

@@ -15,9 +15,9 @@
     ],
     "license": "proprietary",
     "require": {
-        "php": "^8.2",
         "illuminate/support": "^10.10",
-        "illuminate/http": "^10.10"
+        "illuminate/http": "^10.10",
+        "ilya-nurullin/img2ascii": "dev-master"
     },
     "extra": {
         "laravel": {
@@ -25,5 +25,13 @@
                 "Mbayurov\\OtusLaravelHw11\\OtusLaravelHw11ServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ilya-nurullin/img2ascii"
+        }
+    ]
 }
